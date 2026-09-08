@@ -13,13 +13,18 @@ ___
 * [Running Output](#running-output)
 * [Learning Outcomes](#learning-outcomes)
 * [Help](#help)
-* [Authors](#authors)
+* [Author](#author)
 
 ### New Concepts
+___
 * ADDME
 * ADDME
 * ADDME
 * ADDME
+
+* ## Learning Outcomes
+___
+ADDME
 
 ## Tech Stack
 ___
@@ -34,17 +39,13 @@ ___
 ___
 ADDME
 
-## Learning Outcomes
-___
-ADDME
-
 ## Help
 ___
 * Make sure compiler is running correctly.
 * Potentially re-clone repository
 * restart IDE
 
-## Authors
+## Author
 ___
 <img src="https://github.com/Clay-Rasmussen.png" alt="Profile Picture" width="100" />
 
