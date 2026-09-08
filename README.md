@@ -1,4 +1,4 @@
-# MySQL_Chapter2
+# MySQL Chapter2 - Dynamic Web Page
 ___
 
 ## Overview
