@@ -54,7 +54,7 @@ ___
 
 **Clay Rasmussen**
 * **Clay's GitHub Profile**: [Clay-Rasmussen](https://github.com/Clay-Rasmussen)
-* **Clay's Email**: [Clrasm02@wsc.edu](mailto:clrasm02@wsc.edu)
+* **Clay's Email**: [clrasm02@wsc.edu](mailto:clrasm02@wsc.edu)
 ___
 
 [Back to the top](#overview)
