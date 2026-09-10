@@ -1,0 +1,77 @@
+<?php
+#	ini_set('display_errors', 1);
+#	ini_set('display_startup_errors', 1);
+#	error_reporting(E_ALL);
+
+	require_once '/home/phpdbuser/config.php';
+	try {
+		$db = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	} catch (PDOException $e) {
+		error_log($e->getMessage());
+		# echo $e . "<br/>";
+		die("Database connection failed.");
+	}
+	
+	echo "<html><body>";
+	echo "<h1>Vendor Invoices</h1>";
+
+	echo "<form method='post'>";
+    echo "Vendor ID: <input type='text' name='vendorID'/>";
+    echo "<input type='submit' name='submit' value='Submit' />";
+	echo "</form>";
+	echo "Enter ALL to view all vendors<br/>";
+
+	$vendorID = "all";
+	
+	if(isset($_POST['vendorID'])) {
+		
+		$vendorID = trim($_POST['vendorID']);
+		
+		if ($vendorID < 1) $vendorID = "all";
+		
+	}
+    
+	$query = "SELECT vendors.vendor_id, vendor_name, invoice_number, invoice_date, invoice_total";
+	$query .= " FROM vendors INNER JOIN invoices ON vendors.vendor_id = invoices.vendor_id";
+
+	if (strtolower($vendorID) != "all"){
+		$query .= " WHERE vendors.vendor_id = " . $vendorID;
+		$query .= " ORDER BY invoice_total DESC";  	
+	} else {
+		$query .= " ORDER BY vendor_name, invoice_total DESC";  	
+	}
+
+    $statement = $db->prepare($query);
+    $statement->execute();
+    $rows = $statement->fetchAll();
+	
+	if (count($rows) > 0) {
+
+		echo "<table border=1><tr>";
+		echo "<th>Vendor ID</th>";
+		echo "<th>Vendor Name</th>";
+		echo "<th>Invoice No</th>";
+		echo "<th>Invoice Date</th>";
+		echo "<th>Invoice Total</th>";
+		echo "</tr>";
+
+		// output data of each row
+		foreach ($rows as $row) : 
+			echo "<td>".$row["vendor_id"]."</td>";
+			echo "<td>".$row["vendor_name"]."</td>";
+			echo "<td>".$row["invoice_number"]."</td>";
+			echo "<td>".$row["invoice_date"]."</td>";
+			echo "<td>".$row["invoice_total"]."</td>";
+			echo "</tr>";
+		endforeach;
+		
+		echo "</table>";
+		
+	} else {
+		echo "No Data Found";
+	}
+	
+	echo "</body></html>";
+		
+?>
