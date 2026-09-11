@@ -38,7 +38,21 @@ ___
 
 ## Running Output
 ___
-![invoice_v2](Assets/invoice_v2.png)
+* Vendor Invoices Before
+
+![Vendor Invoices](Assets/vendor_invoices_b4.png)
+
+* Vendor Invoices After
+
+![Vendor Invoices After](Assets/vendor_invoicesV2.png)
+
+* Invoice Before
+
+![Invoices Before](Assets/invoice_b4.png)
+
+* Invoice After
+
+![Invoices After](Assets/invoice_v2.png)
 
 ## Help
 ___
