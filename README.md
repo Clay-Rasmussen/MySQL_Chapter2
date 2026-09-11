@@ -70,19 +70,19 @@ ___
 ___
 * Vendor Invoices Before
 
-<img src="Assets/vendor_invoices_b4.png" alt="Vendor Invoices Before" width="500">
+<img src="Assets/vendor_invoices_b4.png" alt="Vendor Invoices Before" width="400">
 
 * Vendor Invoices After
 
-<img src="Assets/vendor_invoicesV2.png" alt="Vendor Invoices After" width="500">
+<img src="Assets/vendor_invoicesV2.png" alt="Vendor Invoices After" width="400">
 
 * Invoice Before
 
-<img src="Assets/invoice_b4.png" alt="Invoice Before" width="500">
+<img src="Assets/invoice_b4.png" alt="Invoice Before" width="400">
 
 * Invoice After
 
-<img src="Assets/invoice_v2.png" alt="Invoice After" width="500">
+<img src="Assets/invoice_v2.png" alt="Invoice After" width="400">
 
 ## Help
 ___
