@@ -5,6 +5,10 @@ ___
 addme
 
 <div align="center">
+<table width="100%">
+<tr>
+<td width="50%" align="left" valign="top">
+<div align="center">
 
 | Table of Contents |
 | --- |
@@ -17,7 +21,25 @@ addme
 | [Author](#author) |
 
 </div>
+</td>
+<td width="50%" align="right" valign="top">
 
+### Author
+
+<img src="https://github.com/Clay-Rasmussen.png" alt="Profile Picture" width="100" />
+
+**Clay Rasmussen**
+
+**Clay's GitHub Profile:** [Clay-Rasmussen](https://github.com/Clay-Rasmussen)
+
+**Clay's Email:** [clrasm02@wsc.edu](mailto:clrasm02@wsc.edu)
+
+</td>
+
+</tr>
+
+</table>
+</div>
 
 ### New Concepts
 ___
