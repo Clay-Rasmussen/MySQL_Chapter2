@@ -43,14 +43,18 @@ addme
 
 ### New Concepts
 ___
-* ADDME
-* ADDME
-* ADDME
-* ADDME
+* Using MySQL databases to store and retrieve information.
+* Editing SQL queries to retrieve specific data from database tables.
+* Connecting a dynamic web page to database information.
+* Displaying database results dynamically on a web page.
+* Understanding how database queries can be used to change the information displayed to users.
 
 ### Learning Outcomes
 ___
-ADDME
+After completing this project, I learned how to use MySQL, HTML, and PHP to work with information stored in a database and display that
+information on a dynamic web page. I also gained experience editing SQL queries, retrieving specific records, and using database information
+to create useful web pages. This project helped me better understand how databases and web applications work together to provide dynamic
+content instead of relying on just static information.
 
 ## Tech Stack
 ___
