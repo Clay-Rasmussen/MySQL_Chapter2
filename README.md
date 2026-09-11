@@ -2,7 +2,7 @@
 ___
 
 ## Overview
-addme
+This project demonstrates how PHP and MySQL can be used together to create a dynamic web page. The application connects to a MySQL database, retrieves information using SQL queries, and displays the results on a web page. The project also shows how modifying database queries can change the information presented to users, providing a practical example of how web applications use databases to create dynamic content.
 
 <div align="center">
 <table width="100%">
@@ -58,8 +58,9 @@ content instead of relying on just static information.
 
 ## Tech Stack
 ___
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000000.svg?style=for-the-badge&logo=GitHub)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Installation
 ___
